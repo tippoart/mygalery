@@ -1,0 +1,137 @@
+:root{
+   --bg:#708090;
+   --primary : rgb(207, 203, 203);
+   
+
+
+}
+
+*{
+
+    font-family: 'Patua One';
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Righteous';
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+   
+    
+}
+
+
+h1{
+   
+    
+    font-size: 40px;
+    color: rgba(42, 40, 40, 0.792);
+    margin-right: flex;
+    text-align: center; 
+    background-color: #9bb7d4;
+    width: 100% ;
+    padding: 20px  20px  15px 15px;
+}
+
+body{
+
+    background: var(--bg)
+}
+
+.contact{
+
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+li a {
+
+    flex-wrap: wrap;
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+
+    color: var(--primary);
+}
+.btn-cta{
+    margin-right: 10px;
+    border: none;
+    font-size: 15px;
+    padding: 13px;
+    background: #9bb7d4;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 20px 30px 30px;
+
+}
+
+.btn-cta:hover{
+color: var(--bg);
+transform: rotate(3deg);
+transition: all .5s ease 0s;}
+
+.image{
+    width: 170px;
+    height: 230px;
+    padding: 20px 20px 30px 30px;
+    gap: 2rem;   
+    border-radius: 60px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    
+}
+
+.image:hover{
+    flex: 5;
+    transform: rotate(45deg);
+    transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+
+}
+.footer{
+
+    background: #4e565f61;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 14px;}
+
+/* media Queries */
+
+
+
+/*  laptop */
+
+@media ( max-width: 1366px){
+    html {
+        font-size: 75%;
+    }
+ }
+
+/*  tablet */
+
+@media ( max-width: 768px){
+    html {
+        font-size: 80.5%;
+    }
+ }
+
+
+
+/*  handphone */
+
+@media ( max-width: 490px){
+    html {
+        font-size: 85%;
+    }
+
+    
+
+ }
